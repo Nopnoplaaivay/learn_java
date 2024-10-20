@@ -7,6 +7,7 @@ public class Main {
         int num1;
         double num2;
         String str;
+        System.out.println("Hello mother fucker");
         System.out.print("Enter an integer: ");
         num1 = in.nextInt();
         System.out.print("Enter a floating point: ");
