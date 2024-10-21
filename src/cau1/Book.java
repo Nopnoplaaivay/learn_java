@@ -1,3 +1,5 @@
+package cau1;
+
 class Book extends Item {
     private String author;
     private int numberOfPages;
@@ -14,7 +16,7 @@ class Book extends Item {
     // Triển khai phương thức showinfo
     @Override
     public void showinfo() {
-        System.out.println("Book - Name: " + name);
+        System.out.println("cau1.Book - Name: " + name);
         System.out.println("Description: " + getDescription());
         System.out.println("ID: " + ID);
         System.out.println("Price: " + price);

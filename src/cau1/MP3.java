@@ -1,3 +1,5 @@
+package cau1;
+
 class MP3 extends Item {
     private int duration;
 
@@ -8,7 +10,7 @@ class MP3 extends Item {
 
     @Override
     public void showinfo() {
-        System.out.println("MP3 - Name: " + name);
+        System.out.println("cau1.MP3 - Name: " + name);
         System.out.println("Description: " + getDescription());
         System.out.println("ID: " + ID);
         System.out.println("Price: " + price);
