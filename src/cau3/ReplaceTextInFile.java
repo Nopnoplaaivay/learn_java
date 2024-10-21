@@ -1,24 +1,25 @@
 package cau3;
 
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
 public class ReplaceTextInFile {
     public static void main(String[] args) {
-        String inputFilePath = "input.txt";
-        String outputFilePath = "output.txt";
+        String inputFilePath = "src/input.txt";
+        String outputFilePath = "src/output.txt";
 
         try {
-            String content = new String(Files.readAllBytes(Paths.get(inputFilePath)));
+            BufferedReader content = new BufferedReader( new FileReader(inputFilePath));
 
-            String updatedContent = content.replaceAll("Nha Trang", "Vũng Tàu");
+            String line;
+            while ((line = content.readLine()) != null) {
+                // Thay thế từ "Java" thành "Python"
+                line = line.replaceAll("Nha Trang", "Vũng Tàu");
+                Files.write(Paths.get(outputFilePath), line.getBytes());
+            }
+            String contentToWrite = "";
 
-            FileWriter writer = new FileWriter(new File(outputFilePath));
-            writer.write(updatedContent);
-            writer.close();
 
             System.out.println("Đã thay thế và ghi vào file output.txt thành công.");
         } catch (IOException e) {
