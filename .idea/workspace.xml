@@ -48,7 +48,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Application.ReplaceTextInFile.executor": "Run",
     "Application.SoSanhStr.executor": "Run",
+    "Application.WordCount.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -60,9 +62,15 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "D:/WORKSPACE/Java_code/learn_java/src/Main.java",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\learn_java\src\cau3" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -80,7 +88,7 @@
       <option name="presentableId" value="Default" />
       <updated>1729409278085</updated>
       <workItem from="1729409279240" duration="2154000" />
-      <workItem from="1729481171251" duration="3150000" />
+      <workItem from="1729481171251" duration="4421000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
